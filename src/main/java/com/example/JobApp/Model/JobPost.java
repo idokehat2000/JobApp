@@ -7,7 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @Component
 public class JobPost {
 
@@ -16,6 +15,10 @@ public class JobPost {
     private String postDesc;
     private Integer reqExperience;
     private List<String> postTechStack;
+
+    public JobPost() {
+
+    }
 
     public JobPost(int postId, String postProfile, String postDesc, Integer reqExperience, List<String> postTechStack) {
         this.postId = postId;
