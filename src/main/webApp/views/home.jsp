@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Telusko Job Portal</title>
+<title>Job Portal</title>
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -61,38 +61,39 @@ p {
 	</nav>
 
 	<div class="container mt-5">
-		<div class="row">
-			<!-- Card 1 -->
-			<div class="col-md-6 mb-5">
-				<div class="card bg-warning">
-					<div class="card-body text-center">
-						<h5 class="card-title">View AllJobs</h5>
-						<form action="/viewalljobs" method="get">
-							<!-- Add your form fields here -->
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</form>
-					</div>
-				</div>
-			</div>
+    		<div class="row">
+    			<!-- Card 1 -->
+    			<div class="col-md-6 mb-5">
+    			<div class="card">
+    					<div class="card-body text-center">
+    						<h5 class="card-title">View All Jobs</h5>
+    						<form action="/viewalljobs" method="get">
+    							<!-- Add your form fields here -->
+    							<button type="submit" class="btn btn-primary">Submit</button>
+    						</form>
+    						</div>
+    				</div>
+    			</div>
 
-			<!-- Card 2 -->
-			<div class="col-md-6 mb-5">
-				<div class="card">
-					<div class="card-body text-center">
-						<h5 class="card-title">Add Job</h5>
-						<form action="/addjob" method="get">
-							<!-- Your form fields go here if needed -->
+    			<!-- Card 2 -->
+    			<div class="col-md-6 mb-5">
+    				<div class="card">
+    					<div class="card-body text-center">
+    						<h5 class="card-title">Add Job</h5>
+    						<form action="/addjob" method="get">
+    							<!-- Your form fields go here if needed -->
 
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</form>
+    							<button type="submit" class="btn btn-primary">Submit</button>
+    						</form>
 
-					</div>
-				</div>
-			</div>
+    					</div>
+    				</div>
+    			</div>
 
 
-		</div>
-	</div>
+    		</div>
+    	</div>
+
 
 
 	<!-- Add the Bootstrap JS and Popper.js scripts -->
